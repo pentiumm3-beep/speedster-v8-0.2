@@ -1,0 +1,2 @@
+from setuptools import setup
+setup(name='speedster-v8', version='0.3.1', py_modules=['speedster'], install_requires=['aiohttp', 'uvloop', 'tqdm', 'requests'], entry_points={'console_scripts': ['speedster=speedster:main']})
